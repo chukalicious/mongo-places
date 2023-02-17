@@ -1,0 +1,26 @@
+{
+  "name": "mongo-places",
+  "version": "1.0.0",
+  "description": "practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "runtest",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chukalicious/mongo-places.git"
+  },
+  "author": "Kat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chukalicious/mongo-places/issues"
+  },
+  "homepage": "https://github.com/chukalicious/mongo-places#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "mongodb": "^5.0.1",
+    "nodemon": "^2.0.20"
+  }
+}
